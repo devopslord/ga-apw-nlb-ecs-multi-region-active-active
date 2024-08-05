@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Svc.Extensions.Db.Data.Abstractions" Version="1.2.27" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Svc.T360.Ticket.Domain\Svc.T360.Ticket.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

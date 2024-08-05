@@ -1,0 +1,177 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Svc.Extensions.Core/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.dll": {}
+        }
+      },
+      "Svc.Extensions.Core.Filter/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Core.Filter.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Filter.dll": {}
+        }
+      },
+      "Svc.Extensions.Core.Model/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Core.Model.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Model.dll": {}
+        }
+      },
+      "Svc.Extensions.Core.Value/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Core.Value.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Value.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Svc.Extensions.Core/1.2.20": {
+      "sha512": "KTsmyIn4S/2Y0ffI9wt1P/OoNt/0piMH2ZHvLDEu/vSWPuBbcOlPRXirRe1pN9KA5qm8lgVlkjK1V5hxV3VjEQ==",
+      "type": "package",
+      "path": "svc.extensions.core/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Core.dll",
+        "svc.extensions.core.1.2.20.nupkg.sha512",
+        "svc.extensions.core.nuspec"
+      ]
+    },
+    "Svc.Extensions.Core.Filter/1.2.20": {
+      "sha512": "3EoEy0TL6vks+rwj1cFlOn/SZRm9ZdgYecpefKh5Bck+x/zYi10se4MUZQtnXFut3uw8Gz+O1UX1077+HZhRjA==",
+      "type": "package",
+      "path": "svc.extensions.core.filter/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Core.Filter.dll",
+        "svc.extensions.core.filter.1.2.20.nupkg.sha512",
+        "svc.extensions.core.filter.nuspec"
+      ]
+    },
+    "Svc.Extensions.Core.Model/1.2.20": {
+      "sha512": "rigZzgy1/1ei0/GYzE9ITOtO2oEgYTUBYxCahBywv1oxS5Nlv6qopab83huTTJC7H7fqBcC4nyvzqqPhS5/erw==",
+      "type": "package",
+      "path": "svc.extensions.core.model/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Core.Model.dll",
+        "svc.extensions.core.model.1.2.20.nupkg.sha512",
+        "svc.extensions.core.model.nuspec"
+      ]
+    },
+    "Svc.Extensions.Core.Value/1.2.20": {
+      "sha512": "4RukOJ92h2xzWGo4FKfIg5JM9rkUtt+JHtMlyaQO8OGPEEBmExX6JXnfjlc9TFy9QUoNWsXwCoZJpCawXHm9jA==",
+      "type": "package",
+      "path": "svc.extensions.core.value/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Core.Value.dll",
+        "svc.extensions.core.value.1.2.20.nupkg.sha512",
+        "svc.extensions.core.value.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Svc.Extensions.Core >= 1.2.20",
+      "Svc.Extensions.Core.Filter >= 1.2.20",
+      "Svc.Extensions.Core.Model >= 1.2.20",
+      "Svc.Extensions.Core.Value >= 1.2.20"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj",
+      "projectName": "Svc.T360.Ticket.Domain",
+      "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj",
+      "packagesPath": "C:\\Users\\William.Aaron\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\William.Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://cedarfair.pkgs.visualstudio.com/Development/_packaging/CFNugetFeed/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Svc.Extensions.Core": {
+            "target": "Package",
+            "version": "[1.2.20, )"
+          },
+          "Svc.Extensions.Core.Filter": {
+            "target": "Package",
+            "version": "[1.2.20, )"
+          },
+          "Svc.Extensions.Core.Model": {
+            "target": "Package",
+            "version": "[1.2.20, )"
+          },
+          "Svc.Extensions.Core.Value": {
+            "target": "Package",
+            "version": "[1.2.20, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File", "Serilog.Sinks.Loggly" ],
+    "MinimumLevel": {
+      "Default": "Debug",
+      "Override": {
+        "Microsoft": "Warning",
+        "System": "Warning",
+        "Microsoft.Hosting": "Information"
+      }
+    },
+    "Enrich": [ "FromLogContext" ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level}] {Message:lj}{NewLine}{Exception}"
+        }
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "log/log.txt",
+          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level}] {Message:lj}{NewLine}{Exception}",
+          "fileSizeLimitBytes": 1048576,
+          "rollOnFileSizeLimit": "true",
+          "retainedFileCountLimit": 25,
+          "flushToDiskInterval": "00:00:01"
+        }
+      },
+      {
+        "Name": "Loggly",
+        "Args": {
+          "restrictedToMinimumLevel": "Debug"
+        }
+      }
+    ],
+    "Loggly": {
+      "InstanceId": "localhost",
+      "IsEnabled": "true",
+      "ApplicationName": "t360-ticket-dev",
+      "ThrowExceptions": "false",
+      "LogTransport": "Https",
+      "EndpointHostname": "logs-01.loggly.com",
+      "EndpointPort": "443",
+      "CustomerToken": "dc362fe7-c5f9-458a-9636-38c21c300ad2"
+    },
+    "Properties": {
+      "Application": "t360-ticket-dev"
+    }
+  }
+}

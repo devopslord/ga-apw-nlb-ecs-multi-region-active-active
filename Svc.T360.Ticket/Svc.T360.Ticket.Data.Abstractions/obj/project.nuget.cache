@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "27bURA9M1gyHyq9i6VuiTFWqlCt+cyxsuJTIQdRTqGLKjT/YIHvlTX2r4Yo3kF51GrpG3sc7p5NWpt02j4USbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\Svc.T360.Ticket.Data.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\svc.extensions.core\\1.2.20\\svc.extensions.core.1.2.20.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\svc.extensions.core.filter\\1.2.20\\svc.extensions.core.filter.1.2.20.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\svc.extensions.core.model\\1.2.20\\svc.extensions.core.model.1.2.20.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\svc.extensions.core.value\\1.2.20\\svc.extensions.core.value.1.2.20.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\svc.extensions.db.data.abstractions\\1.2.27\\svc.extensions.db.data.abstractions.1.2.27.nupkg.sha512",
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\svc.extensions.odm.abstractions\\1.2.20\\svc.extensions.odm.abstractions.1.2.20.nupkg.sha512"
+  ],
+  "logs": []
+}

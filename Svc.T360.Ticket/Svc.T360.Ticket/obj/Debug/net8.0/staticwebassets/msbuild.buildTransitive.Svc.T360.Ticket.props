@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Svc.T360.Ticket.props" />
+</Project>

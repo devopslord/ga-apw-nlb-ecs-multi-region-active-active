@@ -1,0 +1,26 @@
+{
+  "DbConfiguration": {
+    "ApplicationName": "Svc.T360.Ticket",
+    "Hostname": "dev-360db-instance-1.cjvc53qgsvnx.us-east-1.rds.amazonaws.com",
+    "Database": "ticket360",
+    "Username": "dev_iam_ticket",
+    "SchemaName": "dbo",
+    "Port": 5432,
+    "UseTokenAuth": true,
+    "SuccessRefreshIntervalInMinutes": 10,
+    "FailureRefreshIntervalInSeconds": 5,
+    "BulkSaveThreshold": 100,
+    "ParameterThreshold": 500,
+    "LogSqlStatements": true
+  },
+  "ApiConfiguration": {
+    "LogApiOperations": true,
+    "ElapsedMillisecondWarnThreshold": 1500
+  },
+  "SecurityConfiguration": {
+    "ClientIdentifier": "Svc.T360.Ticket",
+    "ClientIdentifierRequestHeaderRequired": false,
+    "ApiKeySecretsKey": "",
+    "ApiKeyAuthEnabled": false
+  }
+}

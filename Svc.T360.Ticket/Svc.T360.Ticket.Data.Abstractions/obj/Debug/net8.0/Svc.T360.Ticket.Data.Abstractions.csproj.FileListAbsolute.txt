@@ -1,0 +1,16 @@
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\bin\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.deps.json
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\bin\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.dll
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\bin\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.pdb
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\bin\Debug\net8.0\Svc.T360.Ticket.Domain.dll
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\bin\Debug\net8.0\Svc.T360.Ticket.Domain.pdb
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.csproj.AssemblyReference.cache
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.AssemblyInfoInputs.cache
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.AssemblyInfo.cs
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.sourcelink.json
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.6AE141CA.Up2Date
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.dll
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\refint\Svc.T360.Ticket.Data.Abstractions.dll
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\Svc.T360.Ticket.Data.Abstractions.pdb
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Data.Abstractions\obj\Debug\net8.0\ref\Svc.T360.Ticket.Data.Abstractions.dll

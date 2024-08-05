@@ -1,0 +1,13 @@
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\bin\Debug\net8.0\Svc.T360.Ticket.Domain.deps.json
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\bin\Debug\net8.0\Svc.T360.Ticket.Domain.dll
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\bin\Debug\net8.0\Svc.T360.Ticket.Domain.pdb
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\Svc.T360.Ticket.Domain.csproj.AssemblyReference.cache
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\Svc.T360.Ticket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\Svc.T360.Ticket.Domain.AssemblyInfoInputs.cache
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\Svc.T360.Ticket.Domain.AssemblyInfo.cs
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\Svc.T360.Ticket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\Svc.T360.Ticket.Domain.sourcelink.json
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\Svc.T360.Ticket.Domain.dll
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\refint\Svc.T360.Ticket.Domain.dll
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\Svc.T360.Ticket.Domain.pdb
+C:\Users\William.Aaron\test\Svc.T360.Ticket\Svc.T360.Ticket.Domain\obj\Debug\net8.0\ref\Svc.T360.Ticket.Domain.dll

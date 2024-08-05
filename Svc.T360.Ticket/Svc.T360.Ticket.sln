@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Svc.T360.Ticket", "Svc.T360.Ticket\Svc.T360.Ticket.csproj", "{5E3CBB2D-E93C-423B-A314-7E942E4118E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Svc.T360.Ticket.Domain", "Svc.T360.Ticket.Domain\Svc.T360.Ticket.Domain.csproj", "{6B086F07-9971-467C-A339-ED0CBFC900D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Svc.T360.Ticket.Service", "Svc.T360.Ticket.Service\Svc.T360.Ticket.Service.csproj", "{D04D4E65-0F31-4E09-9CB0-3F29507A13FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Svc.T360.Ticket.Data", "Svc.T360.Ticket.Data\Svc.T360.Ticket.Data.csproj", "{76E8BD4F-1DC5-465B-B128-A18BA753BB5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svc.T360.Ticket.Service.Dto", "Svc.T360.Ticket.Service.Dto\Svc.T360.Ticket.Service.Dto.csproj", "{EC0640BC-C159-4093-9EE7-72E9C3168444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svc.T360.Ticket.Data.Abstractions", "Svc.T360.Ticket.Data.Abstractions\Svc.T360.Ticket.Data.Abstractions.csproj", "{3D899835-C86A-4173-8A01-8757DA9A084D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E3CBB2D-E93C-423B-A314-7E942E4118E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3CBB2D-E93C-423B-A314-7E942E4118E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3CBB2D-E93C-423B-A314-7E942E4118E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3CBB2D-E93C-423B-A314-7E942E4118E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B086F07-9971-467C-A339-ED0CBFC900D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B086F07-9971-467C-A339-ED0CBFC900D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B086F07-9971-467C-A339-ED0CBFC900D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B086F07-9971-467C-A339-ED0CBFC900D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04D4E65-0F31-4E09-9CB0-3F29507A13FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04D4E65-0F31-4E09-9CB0-3F29507A13FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04D4E65-0F31-4E09-9CB0-3F29507A13FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04D4E65-0F31-4E09-9CB0-3F29507A13FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E8BD4F-1DC5-465B-B128-A18BA753BB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E8BD4F-1DC5-465B-B128-A18BA753BB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E8BD4F-1DC5-465B-B128-A18BA753BB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E8BD4F-1DC5-465B-B128-A18BA753BB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0640BC-C159-4093-9EE7-72E9C3168444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0640BC-C159-4093-9EE7-72E9C3168444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0640BC-C159-4093-9EE7-72E9C3168444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0640BC-C159-4093-9EE7-72E9C3168444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D899835-C86A-4173-8A01-8757DA9A084D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D899835-C86A-4173-8A01-8757DA9A084D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D899835-C86A-4173-8A01-8757DA9A084D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D899835-C86A-4173-8A01-8757DA9A084D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DD07B97-D5B8-4BDA-9A49-DBCA135390D9}
+	EndGlobalSection
+EndGlobal

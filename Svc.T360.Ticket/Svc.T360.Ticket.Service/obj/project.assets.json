@@ -1,0 +1,639 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Svc.Extensions.Core/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.dll": {}
+        }
+      },
+      "Svc.Extensions.Core.Filter/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Core.Filter.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Filter.dll": {}
+        }
+      },
+      "Svc.Extensions.Core.Model/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Core.Model.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Model.dll": {}
+        }
+      },
+      "Svc.Extensions.Core.Value/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Core.Value.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Value.dll": {}
+        }
+      },
+      "Svc.Extensions.Db.Data.Abstractions/1.2.27": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "Svc.Extensions.Core.Filter": "1.2.20",
+          "Svc.Extensions.Core.Value": "1.2.20",
+          "Svc.Extensions.Odm.Abstractions": "1.2.20"
+        },
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Db.Data.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Db.Data.Abstractions.dll": {}
+        }
+      },
+      "Svc.Extensions.Odm.Abstractions/1.2.20": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Odm.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Odm.Abstractions.dll": {}
+        }
+      },
+      "Svc.Extensions.Service/1.2.22": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Svc.Extensions.Core.Filter": "1.2.20",
+          "Svc.Extensions.Core.Model": "1.2.20",
+          "Svc.Extensions.Core.Value": "1.2.20",
+          "Svc.Extensions.Odm.Abstractions": "1.2.20"
+        },
+        "compile": {
+          "lib/net8.0/Svc.Extensions.Service.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Service.dll": {}
+        }
+      },
+      "Svc.T360.Ticket.Data.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Svc.Extensions.Db.Data.Abstractions": "1.2.27",
+          "Svc.T360.Ticket.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Svc.T360.Ticket.Data.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Svc.T360.Ticket.Data.Abstractions.dll": {}
+        }
+      },
+      "Svc.T360.Ticket.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Svc.Extensions.Core": "1.2.20",
+          "Svc.Extensions.Core.Filter": "1.2.20",
+          "Svc.Extensions.Core.Model": "1.2.20",
+          "Svc.Extensions.Core.Value": "1.2.20"
+        },
+        "compile": {
+          "bin/placeholder/Svc.T360.Ticket.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Svc.T360.Ticket.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+      "sha512": "3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+      "sha512": "mBMoXLsr5s1y2zOHWmKsE9veDcx8h1x/c3rz4baEdQKTeDcmQAPNbB54Pi/lhFO3K431eEq6PFbMgLaa6PHFfA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "sha512": "fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/8.0.0": {
+      "sha512": "JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
+      "type": "package",
+      "path": "microsoft.extensions.options/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net6.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Options.targets",
+        "lib/net462/Microsoft.Extensions.Options.dll",
+        "lib/net462/Microsoft.Extensions.Options.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.8.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "sha512": "0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/8.0.0": {
+      "sha512": "bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net7.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net7.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net8.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net8.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Svc.Extensions.Core/1.2.20": {
+      "sha512": "KTsmyIn4S/2Y0ffI9wt1P/OoNt/0piMH2ZHvLDEu/vSWPuBbcOlPRXirRe1pN9KA5qm8lgVlkjK1V5hxV3VjEQ==",
+      "type": "package",
+      "path": "svc.extensions.core/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Core.dll",
+        "svc.extensions.core.1.2.20.nupkg.sha512",
+        "svc.extensions.core.nuspec"
+      ]
+    },
+    "Svc.Extensions.Core.Filter/1.2.20": {
+      "sha512": "3EoEy0TL6vks+rwj1cFlOn/SZRm9ZdgYecpefKh5Bck+x/zYi10se4MUZQtnXFut3uw8Gz+O1UX1077+HZhRjA==",
+      "type": "package",
+      "path": "svc.extensions.core.filter/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Core.Filter.dll",
+        "svc.extensions.core.filter.1.2.20.nupkg.sha512",
+        "svc.extensions.core.filter.nuspec"
+      ]
+    },
+    "Svc.Extensions.Core.Model/1.2.20": {
+      "sha512": "rigZzgy1/1ei0/GYzE9ITOtO2oEgYTUBYxCahBywv1oxS5Nlv6qopab83huTTJC7H7fqBcC4nyvzqqPhS5/erw==",
+      "type": "package",
+      "path": "svc.extensions.core.model/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Core.Model.dll",
+        "svc.extensions.core.model.1.2.20.nupkg.sha512",
+        "svc.extensions.core.model.nuspec"
+      ]
+    },
+    "Svc.Extensions.Core.Value/1.2.20": {
+      "sha512": "4RukOJ92h2xzWGo4FKfIg5JM9rkUtt+JHtMlyaQO8OGPEEBmExX6JXnfjlc9TFy9QUoNWsXwCoZJpCawXHm9jA==",
+      "type": "package",
+      "path": "svc.extensions.core.value/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Core.Value.dll",
+        "svc.extensions.core.value.1.2.20.nupkg.sha512",
+        "svc.extensions.core.value.nuspec"
+      ]
+    },
+    "Svc.Extensions.Db.Data.Abstractions/1.2.27": {
+      "sha512": "Fd5fJtokuNyKjr7RVrFh33+9UXlMm7Rqwpc/8ThVexh5QJmREK2Hb4IZjz61Udp+kFF3EPOz2G8feqbha+8n5w==",
+      "type": "package",
+      "path": "svc.extensions.db.data.abstractions/1.2.27",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Db.Data.Abstractions.dll",
+        "svc.extensions.db.data.abstractions.1.2.27.nupkg.sha512",
+        "svc.extensions.db.data.abstractions.nuspec"
+      ]
+    },
+    "Svc.Extensions.Odm.Abstractions/1.2.20": {
+      "sha512": "4YLv2+moOIEb5qpDajJMFBdVfYd+e6YsM2N1umsRJ4gYPdW5D+ssDn4k1VxN7qTXYPXvG7qF5gqCotxxlx++hg==",
+      "type": "package",
+      "path": "svc.extensions.odm.abstractions/1.2.20",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Odm.Abstractions.dll",
+        "svc.extensions.odm.abstractions.1.2.20.nupkg.sha512",
+        "svc.extensions.odm.abstractions.nuspec"
+      ]
+    },
+    "Svc.Extensions.Service/1.2.22": {
+      "sha512": "ySnSWa7EHZnvRgzjMMkmhCfdw45mx5hR3FXEa9tB8ewe4S4FZMe7rVH3vj4BtPoj+UUZTrBurlBvJY77H3zCxg==",
+      "type": "package",
+      "path": "svc.extensions.service/1.2.22",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Svc.Extensions.Service.dll",
+        "svc.extensions.service.1.2.22.nupkg.sha512",
+        "svc.extensions.service.nuspec"
+      ]
+    },
+    "Svc.T360.Ticket.Data.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Svc.T360.Ticket.Data.Abstractions/Svc.T360.Ticket.Data.Abstractions.csproj",
+      "msbuildProject": "../Svc.T360.Ticket.Data.Abstractions/Svc.T360.Ticket.Data.Abstractions.csproj"
+    },
+    "Svc.T360.Ticket.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Svc.T360.Ticket.Domain/Svc.T360.Ticket.Domain.csproj",
+      "msbuildProject": "../Svc.T360.Ticket.Domain/Svc.T360.Ticket.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Svc.Extensions.Service >= 1.2.22",
+      "Svc.T360.Ticket.Data.Abstractions >= 1.0.0",
+      "Svc.T360.Ticket.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\William.Aaron\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\Svc.T360.Ticket.Service.csproj",
+      "projectName": "Svc.T360.Ticket.Service",
+      "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\Svc.T360.Ticket.Service.csproj",
+      "packagesPath": "C:\\Users\\William.Aaron\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\William.Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://cedarfair.pkgs.visualstudio.com/Development/_packaging/CFNugetFeed/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\Svc.T360.Ticket.Data.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\Svc.T360.Ticket.Data.Abstractions.csproj"
+            },
+            "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj": {
+              "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Svc.Extensions.Service": {
+            "target": "Package",
+            "version": "[1.2.22, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

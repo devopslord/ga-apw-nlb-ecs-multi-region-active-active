@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Svc.Extensions.Api.GraphQL.HotChocolate" Version="1.2.23" />
+    <PackageReference Include="Svc.Extensions.Api.Operation" Version="1.2.28" />
+    <PackageReference Include="Svc.Extensions.Hosting.Startup" Version="1.2.20" />
+    <PackageReference Include="Svc.Extensions.Logging.Serilog" Version="1.2.21" />
+    <PackageReference Include="Svc.Extensions.Odm.HotChocolate" Version="1.2.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Svc.T360.Ticket.Data\Svc.T360.Ticket.Data.csproj" />
+    <ProjectReference Include="..\Svc.T360.Ticket.Domain\Svc.T360.Ticket.Domain.csproj" />
+    <ProjectReference Include="..\Svc.T360.Ticket.Service.Dto\Svc.T360.Ticket.Service.Dto.csproj" />
+    <ProjectReference Include="..\Svc.T360.Ticket.Service\Svc.T360.Ticket.Service.csproj" />
+  </ItemGroup>
+
+</Project>

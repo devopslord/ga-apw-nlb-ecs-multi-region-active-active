@@ -1,0 +1,302 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service.Dto\\Svc.T360.Ticket.Service.Dto.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\Svc.T360.Ticket.Data.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\Svc.T360.Ticket.Data.Abstractions.csproj",
+        "projectName": "Svc.T360.Ticket.Data.Abstractions",
+        "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\Svc.T360.Ticket.Data.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\William.Aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\William.Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cedarfair.pkgs.visualstudio.com/Development/_packaging/CFNugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj": {
+                "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Svc.Extensions.Db.Data.Abstractions": {
+              "target": "Package",
+              "version": "[1.2.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj",
+        "projectName": "Svc.T360.Ticket.Domain",
+        "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj",
+        "packagesPath": "C:\\Users\\William.Aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\William.Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cedarfair.pkgs.visualstudio.com/Development/_packaging/CFNugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Svc.Extensions.Core": {
+              "target": "Package",
+              "version": "[1.2.20, )"
+            },
+            "Svc.Extensions.Core.Filter": {
+              "target": "Package",
+              "version": "[1.2.20, )"
+            },
+            "Svc.Extensions.Core.Model": {
+              "target": "Package",
+              "version": "[1.2.20, )"
+            },
+            "Svc.Extensions.Core.Value": {
+              "target": "Package",
+              "version": "[1.2.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service.Dto\\Svc.T360.Ticket.Service.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service.Dto\\Svc.T360.Ticket.Service.Dto.csproj",
+        "projectName": "Svc.T360.Ticket.Service.Dto",
+        "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service.Dto\\Svc.T360.Ticket.Service.Dto.csproj",
+        "packagesPath": "C:\\Users\\William.Aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\William.Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cedarfair.pkgs.visualstudio.com/Development/_packaging/CFNugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj": {
+                "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj"
+              },
+              "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\Svc.T360.Ticket.Service.csproj": {
+                "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\Svc.T360.Ticket.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Svc.Extensions.Odm": {
+              "target": "Package",
+              "version": "[1.2.20, )"
+            },
+            "Svc.Extensions.Service.Dto": {
+              "target": "Package",
+              "version": "[1.2.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\Svc.T360.Ticket.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\Svc.T360.Ticket.Service.csproj",
+        "projectName": "Svc.T360.Ticket.Service",
+        "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\Svc.T360.Ticket.Service.csproj",
+        "packagesPath": "C:\\Users\\William.Aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\William.Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://cedarfair.pkgs.visualstudio.com/Development/_packaging/CFNugetFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\Svc.T360.Ticket.Data.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Data.Abstractions\\Svc.T360.Ticket.Data.Abstractions.csproj"
+              },
+              "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj": {
+                "projectPath": "C:\\Users\\William.Aaron\\test\\Svc.T360.Ticket\\Svc.T360.Ticket.Domain\\Svc.T360.Ticket.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Svc.Extensions.Service": {
+              "target": "Package",
+              "version": "[1.2.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

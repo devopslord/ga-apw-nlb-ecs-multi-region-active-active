@@ -1,0 +1,89 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Svc.T360.Ticket.Domain/1.0.0": {
+        "dependencies": {
+          "Svc.Extensions.Core": "1.2.20",
+          "Svc.Extensions.Core.Filter": "1.2.20",
+          "Svc.Extensions.Core.Model": "1.2.20",
+          "Svc.Extensions.Core.Value": "1.2.20"
+        },
+        "runtime": {
+          "Svc.T360.Ticket.Domain.dll": {}
+        }
+      },
+      "Svc.Extensions.Core/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      },
+      "Svc.Extensions.Core.Filter/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Filter.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      },
+      "Svc.Extensions.Core.Model/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Model.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      },
+      "Svc.Extensions.Core.Value/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Value.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Svc.T360.Ticket.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Svc.Extensions.Core/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KTsmyIn4S/2Y0ffI9wt1P/OoNt/0piMH2ZHvLDEu/vSWPuBbcOlPRXirRe1pN9KA5qm8lgVlkjK1V5hxV3VjEQ==",
+      "path": "svc.extensions.core/1.2.20",
+      "hashPath": "svc.extensions.core.1.2.20.nupkg.sha512"
+    },
+    "Svc.Extensions.Core.Filter/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3EoEy0TL6vks+rwj1cFlOn/SZRm9ZdgYecpefKh5Bck+x/zYi10se4MUZQtnXFut3uw8Gz+O1UX1077+HZhRjA==",
+      "path": "svc.extensions.core.filter/1.2.20",
+      "hashPath": "svc.extensions.core.filter.1.2.20.nupkg.sha512"
+    },
+    "Svc.Extensions.Core.Model/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rigZzgy1/1ei0/GYzE9ITOtO2oEgYTUBYxCahBywv1oxS5Nlv6qopab83huTTJC7H7fqBcC4nyvzqqPhS5/erw==",
+      "path": "svc.extensions.core.model/1.2.20",
+      "hashPath": "svc.extensions.core.model.1.2.20.nupkg.sha512"
+    },
+    "Svc.Extensions.Core.Value/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4RukOJ92h2xzWGo4FKfIg5JM9rkUtt+JHtMlyaQO8OGPEEBmExX6JXnfjlc9TFy9QUoNWsXwCoZJpCawXHm9jA==",
+      "path": "svc.extensions.core.value/1.2.20",
+      "hashPath": "svc.extensions.core.value.1.2.20.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ypAE0vVDu18Q6ULVIpKleQHUDufqJ5sTN2aHwVBiYao=",
+  "Source": "Svc.T360.Ticket",
+  "BasePath": "_content/Svc.T360.Ticket",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

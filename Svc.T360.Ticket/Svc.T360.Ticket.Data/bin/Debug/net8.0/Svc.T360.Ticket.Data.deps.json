@@ -1,0 +1,562 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Svc.T360.Ticket.Data/1.0.0": {
+        "dependencies": {
+          "Svc.Extensions.AWS": "1.2.21",
+          "Svc.Extensions.Db.Data.Postgres": "1.2.26",
+          "Svc.T360.Ticket.Data.Abstractions": "1.0.0",
+          "Svc.T360.Ticket.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Svc.T360.Ticket.Data.dll": {}
+        }
+      },
+      "Audit.NET/25.0.7": {
+        "runtime": {
+          "lib/net8.0/Audit.NET.dll": {
+            "assemblyVersion": "25.0.7.0",
+            "fileVersion": "25.0.7.0"
+          }
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.304.29": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.304.29"
+          }
+        }
+      },
+      "AWSSDK.RDS/3.7.314": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.304.29"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.RDS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.314.0"
+          }
+        }
+      },
+      "AWSSDK.SecretsManager/3.7.102.54": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.304.29"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SecretsManager.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.102.54"
+          }
+        }
+      },
+      "AWSSDK.SecretsManager.Caching/1.0.6": {
+        "dependencies": {
+          "AWSSDK.SecretsManager": "3.7.102.54",
+          "Microsoft.Extensions.Caching.Memory": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.SecretsManager.Extensions.Caching.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Dapper/2.1.35": {
+        "runtime": {
+          "lib/net7.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.35.13827"
+          }
+        }
+      },
+      "Dapper.SimpleCRUD/2.3.0": {
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "Microsoft.CSharp": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.SimpleCRUD.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {},
+      "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11423"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11423"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Npgsql/8.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Npgsql.dll": {
+            "assemblyVersion": "8.0.3.0",
+            "fileVersion": "8.0.3.0"
+          }
+        }
+      },
+      "Svc.Extensions.AWS/1.2.21": {
+        "dependencies": {
+          "AWSSDK.RDS": "3.7.314",
+          "AWSSDK.SecretsManager.Caching": "1.0.6",
+          "Svc.Extensions.AWS.Abstractions": "1.2.21"
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.AWS.dll": {
+            "assemblyVersion": "1.2.21.0",
+            "fileVersion": "1.2.21.0"
+          }
+        }
+      },
+      "Svc.Extensions.AWS.Abstractions/1.2.21": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.AWS.Abstractions.dll": {
+            "assemblyVersion": "1.2.21.0",
+            "fileVersion": "1.2.21.0"
+          }
+        }
+      },
+      "Svc.Extensions.Core/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      },
+      "Svc.Extensions.Core.Filter/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Filter.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      },
+      "Svc.Extensions.Core.Model/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Model.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      },
+      "Svc.Extensions.Core.Value/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Core.Value.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      },
+      "Svc.Extensions.Db.Data.Abstractions/1.2.27": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "Svc.Extensions.Core.Filter": "1.2.20",
+          "Svc.Extensions.Core.Value": "1.2.20",
+          "Svc.Extensions.Odm.Abstractions": "1.2.20"
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Db.Data.Abstractions.dll": {
+            "assemblyVersion": "1.2.27.0",
+            "fileVersion": "1.2.27.0"
+          }
+        }
+      },
+      "Svc.Extensions.Db.Data.Postgres/1.2.26": {
+        "dependencies": {
+          "Audit.NET": "25.0.7",
+          "Dapper": "2.1.35",
+          "Dapper.SimpleCRUD": "2.3.0",
+          "Newtonsoft.Json": "13.0.3",
+          "Npgsql": "8.0.3",
+          "Svc.Extensions.Core": "1.2.20",
+          "Svc.Extensions.Core.Model": "1.2.20",
+          "Svc.Extensions.Db.Data.Abstractions": "1.2.27"
+        },
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Db.Data.Postgres.dll": {
+            "assemblyVersion": "1.2.26.0",
+            "fileVersion": "1.2.26.0"
+          }
+        }
+      },
+      "Svc.Extensions.Odm.Abstractions/1.2.20": {
+        "runtime": {
+          "lib/net8.0/Svc.Extensions.Odm.Abstractions.dll": {
+            "assemblyVersion": "1.2.20.0",
+            "fileVersion": "1.2.20.0"
+          }
+        }
+      },
+      "Svc.T360.Ticket.Data.Abstractions/1.0.0": {
+        "dependencies": {
+          "Svc.Extensions.Db.Data.Abstractions": "1.2.27",
+          "Svc.T360.Ticket.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Svc.T360.Ticket.Data.Abstractions.dll": {}
+        }
+      },
+      "Svc.T360.Ticket.Domain/1.0.0": {
+        "dependencies": {
+          "Svc.Extensions.Core": "1.2.20",
+          "Svc.Extensions.Core.Filter": "1.2.20",
+          "Svc.Extensions.Core.Model": "1.2.20",
+          "Svc.Extensions.Core.Value": "1.2.20"
+        },
+        "runtime": {
+          "Svc.T360.Ticket.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Svc.T360.Ticket.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Audit.NET/25.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c3/akpTukzQlHl6KVJwitDYEZ8d1XfTsWk3dFzPfH65LNSBtsnva2la5BAe5sipgPeZWSZ6rxj6zo98HatELSQ==",
+      "path": "audit.net/25.0.7",
+      "hashPath": "audit.net.25.0.7.nupkg.sha512"
+    },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.304.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ut4MP7Y2O80TmEw5q++DED+BpJU3eb23szaxapSMOAXXff3+0uGmQ+thBJJdtCLx5SyF3SeJDlPCUH79btL2QA==",
+      "path": "awssdk.core/3.7.304.29",
+      "hashPath": "awssdk.core.3.7.304.29.nupkg.sha512"
+    },
+    "AWSSDK.RDS/3.7.314": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hYfwENjOF8JpYUOzmA63vrMRIFTKMhSQfPTS6Wv9GkTZoRQ+pqEPBuP7FnkqNMuncnRHktN3j86u+JQA4eatAA==",
+      "path": "awssdk.rds/3.7.314",
+      "hashPath": "awssdk.rds.3.7.314.nupkg.sha512"
+    },
+    "AWSSDK.SecretsManager/3.7.102.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zEkJXW/Uww0n3FzJz7biLzr5T4WO7L7Rg3tuKjiRT/8ITzmq6Wgyf0v7HYhIlHBjvWwm13AHSlt0jpOCImwIlA==",
+      "path": "awssdk.secretsmanager/3.7.102.54",
+      "hashPath": "awssdk.secretsmanager.3.7.102.54.nupkg.sha512"
+    },
+    "AWSSDK.SecretsManager.Caching/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N982+rohMJ/w8ywyN6hgnSgw2cpqj4MJDizz+b93gudQSEzR3lCTzHGN3AQl+ngMH4yTG+DfKgmL7QajvvYyKQ==",
+      "path": "awssdk.secretsmanager.caching/1.0.6",
+      "hashPath": "awssdk.secretsmanager.caching.1.0.6.nupkg.sha512"
+    },
+    "Dapper/2.1.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
+      "path": "dapper/2.1.35",
+      "hashPath": "dapper.2.1.35.nupkg.sha512"
+    },
+    "Dapper.SimpleCRUD/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9wj9b3IYADmNea3hwlkS0qKRCcbTYcJ4uYCdZdE9O34nTvl0mJv1Hy6sSFA5t/UN8zKscWiDFWT8B+4tOnoQvA==",
+      "path": "dapper.simplecrud/2.3.0",
+      "hashPath": "dapper.simplecrud.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+      "path": "microsoft.csharp/4.4.0",
+      "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IeimUd0TNbhB4ded3AbgBLQv2SnsiVugDyGV1MvspQFVlA07nDC7Zul7kcwH5jWN3JiTcp/ySE83AIJo8yfKjg==",
+      "path": "microsoft.extensions.caching.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpidBs2KCE2gw1JrD0quHE72kvCaI3xFql5/Peb2GRtUuZX+dYPoK/NTdVMiM67Svym0M0Df9A3xyU0FbMQhHw==",
+      "path": "microsoft.extensions.caching.memory/7.0.0",
+      "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mBMoXLsr5s1y2zOHWmKsE9veDcx8h1x/c3rz4baEdQKTeDcmQAPNbB54Pi/lhFO3K431eEq6PFbMgLaa6PHFfA==",
+      "path": "microsoft.extensions.configuration.binder/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RIFgaqoaINxkM2KTOw72dmilDmTrYA0ns2KW4lDz4gZ2+o6IQ894CzmdL3StM2oh7QQq44nCWiqKqc4qUI9Jmg==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
+      "path": "microsoft.extensions.options/8.0.0",
+      "hashPath": "microsoft.extensions.options.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
+      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Npgsql/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6WEmzsQJCZAlUG1pThKg/RmeF6V+I0DmBBBE/8YzpRtEzhyZzKcK7ulMANDm5CkxrALBEC8H+5plxHWtIL7xnA==",
+      "path": "npgsql/8.0.3",
+      "hashPath": "npgsql.8.0.3.nupkg.sha512"
+    },
+    "Svc.Extensions.AWS/1.2.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gdCVtinMY2nib+IJdG4HFqkXI3JBf9CUkq+BJqWHKqzVVpb0s0ID6VKJ90CICNDLjVZuMvs+in772M5AQiutuw==",
+      "path": "svc.extensions.aws/1.2.21",
+      "hashPath": "svc.extensions.aws.1.2.21.nupkg.sha512"
+    },
+    "Svc.Extensions.AWS.Abstractions/1.2.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8FKHhgQs6JpvkYKFVhumjBM4IfOU4uLpQh+/V+w2fNdvLd0MxWv9azZh5iZBMOHxYhbwwCyQcKQYJQ6Rtdv+aw==",
+      "path": "svc.extensions.aws.abstractions/1.2.21",
+      "hashPath": "svc.extensions.aws.abstractions.1.2.21.nupkg.sha512"
+    },
+    "Svc.Extensions.Core/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KTsmyIn4S/2Y0ffI9wt1P/OoNt/0piMH2ZHvLDEu/vSWPuBbcOlPRXirRe1pN9KA5qm8lgVlkjK1V5hxV3VjEQ==",
+      "path": "svc.extensions.core/1.2.20",
+      "hashPath": "svc.extensions.core.1.2.20.nupkg.sha512"
+    },
+    "Svc.Extensions.Core.Filter/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3EoEy0TL6vks+rwj1cFlOn/SZRm9ZdgYecpefKh5Bck+x/zYi10se4MUZQtnXFut3uw8Gz+O1UX1077+HZhRjA==",
+      "path": "svc.extensions.core.filter/1.2.20",
+      "hashPath": "svc.extensions.core.filter.1.2.20.nupkg.sha512"
+    },
+    "Svc.Extensions.Core.Model/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rigZzgy1/1ei0/GYzE9ITOtO2oEgYTUBYxCahBywv1oxS5Nlv6qopab83huTTJC7H7fqBcC4nyvzqqPhS5/erw==",
+      "path": "svc.extensions.core.model/1.2.20",
+      "hashPath": "svc.extensions.core.model.1.2.20.nupkg.sha512"
+    },
+    "Svc.Extensions.Core.Value/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4RukOJ92h2xzWGo4FKfIg5JM9rkUtt+JHtMlyaQO8OGPEEBmExX6JXnfjlc9TFy9QUoNWsXwCoZJpCawXHm9jA==",
+      "path": "svc.extensions.core.value/1.2.20",
+      "hashPath": "svc.extensions.core.value.1.2.20.nupkg.sha512"
+    },
+    "Svc.Extensions.Db.Data.Abstractions/1.2.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fd5fJtokuNyKjr7RVrFh33+9UXlMm7Rqwpc/8ThVexh5QJmREK2Hb4IZjz61Udp+kFF3EPOz2G8feqbha+8n5w==",
+      "path": "svc.extensions.db.data.abstractions/1.2.27",
+      "hashPath": "svc.extensions.db.data.abstractions.1.2.27.nupkg.sha512"
+    },
+    "Svc.Extensions.Db.Data.Postgres/1.2.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G3hwFuWJw/PcfQWCmnbT4Rvk9w6Zcd4iBQnpAuLUg8HnOMMWPmuG058rvqfuciQs7h15CmU2fu6DeDAjF1GBsg==",
+      "path": "svc.extensions.db.data.postgres/1.2.26",
+      "hashPath": "svc.extensions.db.data.postgres.1.2.26.nupkg.sha512"
+    },
+    "Svc.Extensions.Odm.Abstractions/1.2.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4YLv2+moOIEb5qpDajJMFBdVfYd+e6YsM2N1umsRJ4gYPdW5D+ssDn4k1VxN7qTXYPXvG7qF5gqCotxxlx++hg==",
+      "path": "svc.extensions.odm.abstractions/1.2.20",
+      "hashPath": "svc.extensions.odm.abstractions.1.2.20.nupkg.sha512"
+    },
+    "Svc.T360.Ticket.Data.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Svc.T360.Ticket.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

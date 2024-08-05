@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Svc.T360.Ticket.Domain\Svc.T360.Ticket.Domain.csproj" />
+    <ProjectReference Include="..\Svc.T360.Ticket.Service\Svc.T360.Ticket.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Svc.Extensions.Odm" Version="1.2.20" />
+    <PackageReference Include="Svc.Extensions.Service.Dto" Version="1.2.20" />
+  </ItemGroup>
+
+</Project>
